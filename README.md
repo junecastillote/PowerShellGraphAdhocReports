@@ -22,7 +22,7 @@ Get all soft-deleted users that still exist in the AAD Deleted Users.
 .\Get-AADDeletedUsers.ps1
 ```
 
-![Get-UserCreateActivity_001](/docimages/Get-AADDeletedUsers_001.png)
+![Get-UserCreateActivity_001](docImages/Get-AADDeletedUsers_001.png)
 
 ## Get-UserCreateActivity.ps1
 
@@ -33,7 +33,7 @@ Get all users created within the specified date range.
 .\Get-UserCreateActivity.ps1 -StartDate (Get-Date).AddDays(-2) -EndDate (Get-Date)
 ```
 
-![Get-UserCreateActivity_001](/docimages/Get-UserCreateActivity_001.png)
+![Get-UserCreateActivity_001](docImages/Get-UserCreateActivity_001.png)
 
 ## Get-UserDeleteActivity.ps1
 
@@ -44,4 +44,4 @@ Get all users deleted within the specified date range.
 .\Get-UserDeleteActivity.ps1 -StartDate (Get-Date).AddDays(-7) -EndDate (Get-Date)
 ```
 
-![Get-UserCreateActivity_001](/docimages/Get-UserDeleteActivity_001.png)
+![Get-UserCreateActivity_001](docImages/Get-UserDeleteActivity_001.png)
