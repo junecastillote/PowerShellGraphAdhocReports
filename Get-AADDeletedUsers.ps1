@@ -1,6 +1,8 @@
 [cmdletbinding()]
 param (
-    [int]$period
+    [Parameter()]
+    [int]
+    $Period = 7
 )
 # Connect-MgGraph -Scopes 'Directory.ReadWrite.All' -TenantId org.onmicrosoft.com
 
